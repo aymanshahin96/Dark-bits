@@ -1,0 +1,17 @@
+{
+  "name": "guc-notify-backend",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "mockaroo": "^0.1.7",
+    "morgan": "~1.9.1",
+    "node-cron": "^2.0.3",
+    "pushy": "^2.0.8"
+  }
+}
